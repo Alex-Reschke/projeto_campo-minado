@@ -1,0 +1,39 @@
+.container__principal {
+    background-color: #202020;
+    text-align: center;
+    color: #fff;
+    font-size: 1.5rem;
+    min-height: 100vh;
+}
+
+.painel__jogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.texto {
+    margin: 0;
+}
+
+#tabuleiro {
+    display: grid;
+    grid-template-columns: repeat(9, 35px);
+    margin: 0 auto;
+    width: 315px;
+}
+
+.celula {
+    width: 35px;
+    height: 35px;
+    background-color: aqua;
+    border: #fff;
+    border-radius: 5px;
+    border-color: black;
+    padding: 5px;
+    gap: 5px;
+}
